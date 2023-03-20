@@ -10,6 +10,26 @@ UHWC is able to analyze *any* Hello World program and compile it for a multitude
 - [x] Supports many compilation targets.
 - [x] Rust.
 
+## Usage
+
+You will need Node, PNPM, and Rust installed.
+
+```bash
+# Install dependencies.
+pnpm i
+
+# Build your code!
+pnpm run build -- ./your_code TARGET
+```
+
+The first argument is the path to yuor code, and the second is the target. UHWC can compile to any target Rust can, so the target format matches Rust's.
+
+The following command compiles `hello_world.c` For Windows.
+
+```bash
+pnpm run build -- ./hello_world.c x86_64-pc-windows-msvc
+```
+
 ## Examples
 
 ### JavaScript/TypeScript
