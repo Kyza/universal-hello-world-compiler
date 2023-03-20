@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "ESNext",
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["DOM"],
+		"types": ["@types/node"],
+		"moduleResolution": "Node",
+		"jsx": "react",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"downlevelIteration": true
+	}
+}
