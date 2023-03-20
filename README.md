@@ -7,7 +7,8 @@ UHWC is able to analyze *any* Hello World program and compile it for a multitude
 - [x] Blazingly fast compilation speed.
 - [x] Blazingly fast executable speed.
 - [x] Memory safety guarueantead.
-- [x] Supports many compilation targets.
+- [x] Many compilation targets.
+- [x] Automatic bug correction.
 - [x] Rust.
 
 ## Usage
